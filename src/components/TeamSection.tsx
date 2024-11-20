@@ -1,11 +1,15 @@
 import React from 'react';
+import SantiagoIMG from '../public/Santiago.jpeg';
+import DanielIMG from '../public/Daniel.png';
+import RobinsonIMG from '../public/Robbinson.png';
+import JuanIMG from '../public/Sebastian.png';
 
 const teamMembers = [
-  { name: 'Dr. Sarah Chen', role: 'AI Research Director', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-  { name: 'Michael Rodriguez', role: 'Chief Technology Officer', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-  { name: 'Emily Nakamura', role: 'Data Science Lead', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-  { name: 'David Okafor', role: 'Machine Learning Engineer', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
-  { name: 'Aisha Patel', role: 'AI Ethics Specialist', image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' },
+  { name: 'Kevin Ramos', role: 'IA-enginner', image: SantiagoIMG },
+  { name: 'Santiago Ramos', role: 'Economist, psychologist', image: SantiagoIMG },
+  { name: 'Daniel Hurtado', role: 'Data Science Lead', image: DanielIMG },
+  { name: 'Robinson Beltran', role: 'Machine Learning Engineer', image: RobinsonIMG },
+  { name: 'Juan Medina', role: 'AI Ethics Specialist', image: JuanIMG },
 ];
 
 const TeamSection: React.FC = () => {

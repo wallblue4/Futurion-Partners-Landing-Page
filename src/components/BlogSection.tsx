@@ -22,15 +22,15 @@ const BlogSection: React.FC = () => {
   return (
     <section id="blog" className="py-24 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-16">Latest Insights</h2>
+        <h2 className="text-4xl font-serif text-center mb-16">Latest Insights</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {blogPosts.map((post, index) => (
-            <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+            <div key={index} className="bg-white square-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
               <img src={post.image} alt={post.title} className="w-full h-56 object-cover" />
               <div className="p-8">
-                <h3 className="text-2xl font-semibold mb-4">{post.title}</h3>
-                <p className="text-gray-600 mb-6">{post.excerpt}</p>
-                <a href="#" className="text-blue-500 hover:text-blue-600 font-semibold text-lg">Read More →</a>
+                <h3 className="text-2xl font-semiblond mb-4">{post.title}</h3>
+                <p className="text-gray-600 font-semiblond mb-6">{post.excerpt}</p>
+                <a href="#" className="text-blue-500 hover:text-blue-600 font-semiblond text-lg">Read More →</a>
               </div>
             </div>
           ))}

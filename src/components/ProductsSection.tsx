@@ -29,12 +29,12 @@ const ProductsSection: React.FC = () => {
         <h2 className="text-4xl font-bold text-center mb-20">Our AI Models</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           {products.map((product, index) => (
-            <div key={index} className="border-2 border-blue-100 rounded-2xl p-10 hover:shadow-2xl transition duration-300 transform hover:-translate-y-3">
+            <div key={index} className="border-2 border-blue-100 square-2xl p-10 hover:shadow-2xl transition duration-300 transform hover:-translate-y-3">
               <div className="flex justify-center mb-8">{product.icon}</div>
               <h3 className="text-3xl font-semibold mb-4 text-center">{product.title}</h3>
               <p className="text-gray-600 text-center mb-8 text-lg">{product.description}</p>
               <div className="text-center">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 text-lg">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 square-full transition duration-300 text-lg">
                   {product.cta}
                 </button>
               </div>
